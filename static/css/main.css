@@ -1,0 +1,38 @@
+body {
+    background-image: url("/static/img/background.jpg");
+    /* background-size: cover; */
+    background-color: #e39192;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #444;
+}
+
+.navbar-title {
+    font-size: 1.5rem;
+    background: linear-gradient(to left, #532953, #0f67ed, #9bed11, #2cbf2c, #f90039, #c71c1c, #0f5f9d);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.btn-custom-song {
+    background: linear-gradient(to left, #7a547d, #945e82, #d9738b, #f28a87);
+    color: #fff;
+    border: 2px solid #fff
+}
+
+.btn-custom-song:hover {
+    color: #0d6efd;
+    border: 2px solid #0d6efd;
+}
+
+.play-pause-section {
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+}
+
+.play-pause-section i {
+    border: 1px solid black;
+    color: black;
+}
